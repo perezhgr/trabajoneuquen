@@ -1,12 +1,60 @@
-body {background: url("montana.gif") right top repeat-y fixed;} 
-
-aside{
-}
-
-section {
+header{
+	background-color: black;
+	height: 150px;
+	width: 100%;
 	
 }
 
-article{
+#divlogomontana{
+	background-color: red;
+	float: left;
+	width: 15%;
+	height: 150px;
+}
+
+#imglogomontana{
+	width: 100%;
+	height: 150px;
+}
+
+#divrestologo{
+	float: left;
+	background-color: green;
+	width: 75%;
+	height: 150px;
+}
+
+#imgrestologo{
+	width:70%;
+	height:150px;
 
 }
+
+.container{
+	background-color: brown;
+	height: 600px;
+	width: 100%;
+}
+aside{
+	float: left;	
+	background-color: grey;
+	width: 15%;
+}
+
+section {
+	float: left;	
+	background-color: red;
+	width: 75%;
+}
+
+article{
+	float: left;
+	background-color: yellow;
+	width: 70%;
+}
+
+footer{	
+}
+
+
+
