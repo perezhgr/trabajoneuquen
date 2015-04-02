@@ -5,58 +5,67 @@
   <title>Titulo de la web</title>
   <meta charset="utf-8" />
   <link rel="stylesheet" href="css/style.css" />
-
 </head>
 
 <body>
   <header>
-    <div id="divlogomontana">
-      <img id="imglogomontana" src="img/montana.gif">
-    </div>
-    <div id="divrestologo">
-      <img id="imgrestologo"src="img/resto_logo.gif">
-    </div>       
+      <div id="divlogomontana">
+        <img id="imglogomontana" src="img/montana.gif">
+      </div>
+      <div id="divrestologo">
+        <img id="imgrestologo"src="img/resto_logo.gif">
+      </div>       
   </header>
+      
+  <div class="containerprincipal">
+      <!--DENTRO DE LAS ETIQUETAS ASIDE SE COLOCA EL MENU-->
+      <aside>
+        <h3>Titulo de contenido</h3>
 
+        <p>Titulo 1</p>
+        <ul>
+          <li><a href="opc1a.html">Opcion 1a</a></li>
+          <li><a href="opc1b.html">Opcion 1b</a></li>
+        </ul>
 
-  <!--DENTRO DE LAS ETIQUETAS ASIDE SE COLOCA EL MENU-->
-  <div class="container">
-    <aside>
-     <h3>Titulo de contenido</h3>
+        <p>Titulo 2</p>
+        <ul>
+          <li><a href="opc1a.html">Opcion 1a</a></li>
+          <li><a href="opc1b.html">Opcion 1b</a></li>
+        </ul>
+      </aside>
+      <!--FIN ETIQUETAS ASIDE-->
 
-     <p>Titulo 1</p>
-     <ul>
-      <li><a href="opc1a.html">Opcion 1a</a></li>
-      <li><a href="opc1b.html">Opcion 1b</a></li>
-    </ul>
+      <!--INICIO ETIQUETAS SECTION-->
+      <section>
 
-    <p>Titulo 2</p>
-    <ul>
-      <li><a href="opc1a.html">Opcion 1a</a></li>
-      <li><a href="opc1b.html">Opcion 1b</a></li>
-    </ul>
-  </aside>
-  <!--FIN ETIQUETAS ASIDE-->
-  <!--INICIO ETIQUETAS SECTION-->
-  <section>
+        <!--INICIO ETIQUETAS ARTICLE (ACA IRIA EL CONTENIDO DINAMICO)-->
+        <article>
+          <div id="divimgslalom">
+            <img class="imgslalom" src="img/slalom.gif">
+            <img class="imgslalom" src="img/slalom.gif">
+            <img class="imgslalom" src="img/slalom.gif">
+            <img class="imgslalom" src="img/slalom.gif">
+            <img class="imgslalom" src="img/slalom.gif">
+            <img class="imgslalom" src="img/slalom.gif">            
+          </div>
 
-    <!--INICIO ETIQUETAS ARTICLE (ACA IRIA EL CONTENIDO DINAMICO)-->
-    <article>
-      <img src="img/slalom.gif">
-      <h2>Titilo de contenido<h2>
-       <p> Contenido (ademas de imagenes, citas, videos etc.) </p>
-     </article>
-     <!--FIN ETIQUETAS ARTICLE-->
+          <div class="principalcontenido">
+              <h2>Titilo de contenido<h2>
+              <p> Contenido (ademas de imagenes, citas, videos etc.) </p>
+          </div>
+          
+        </article>
+        <!--FIN ETIQUETAS ARTICLE-->
+      </section>
+      <!--FIN ETIQUETAS SECTION-->
+      <div class="containerpie">
+        <img id="imgpie" src="img/pie.gif">
+      </div>
+  </div>
 
-   </section>
-   <!--FIN ETIQUETAS SECTION-->
-
- </div>
-
- <!--INICIO FOOTER(PIE DE PAGINA)-->
- <footer>
-  Creado por mi el 2011
-</footer>
-<!--FIN FOOTER(PIE DE PAGINA)-->
+    <!--INICIO FOOTER(PIE DE PAGINA)
+    <footer></footer>-->
+    <!--FIN FOOTER(PIE DE PAGINA)-->
 </body>
 </html>
