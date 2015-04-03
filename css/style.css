@@ -7,7 +7,7 @@ article{
 aside{
 	background-color: grey;
 	float: left;	
-	height: 70%;
+	height: 100%;
 	width: 15%;
 }
 
@@ -15,11 +15,12 @@ body{
 	margin: 2%;
 }
 
+
 .containerpie{
 	background-color: blue;
 	float: left;
 	height: 150px;
-	margin-left: 15%;
+	
 	width: 15%;
 }
 
@@ -27,6 +28,14 @@ body{
 	background-color: brown;
 	height: 500px;
 	width: 100%;
+}
+
+.divconteidodinamico{
+	background-color: green;
+	float: left;
+	height: 100%;
+	margin-left: 2%;
+	width: 90%;
 }
 
 #divlogomontana{
@@ -79,18 +88,9 @@ header{
 	width: 100%;
 }
 
-.divconteidodinamico{
-	background-color: green;
-	float: right;
-	width: 92%;
-	height: 100%;
-}
-
 section {
 	background-color: red;
 	float: left;	
 	height: 70%;
 	width: 75%;
 }
-
-
