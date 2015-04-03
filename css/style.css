@@ -1,32 +1,26 @@
-header{
-	background-color: black;
-	height: 150px;
-	width: 100%;
-}
-
-#divlogomontana{
-	background-color: red;
+article{
 	float: left;
+	background-color: yellow;
+	width: 70%;
+	height: 100%;
+}
+aside{
+	background-color: grey;
+	float: left;	
+	height: 70%;
 	width: 15%;
-	height: 150px;
 }
 
-#imglogomontana{
-	width: 100%;
-	height: 150px;
+body{
+	margin: 2%;
 }
 
-#divrestologo{
+.containerpie{
+	background-color: blue;
 	float: left;
-	background-color: green;
-	width: 75%;
 	height: 150px;
-}
-
-#imgrestologo{
-	width:70%;
-	height:150px;
-
+	margin-left: 15%;
+	width: 15%;
 }
 
 .containerprincipal{
@@ -35,61 +29,68 @@ header{
 	width: 100%;
 }
 
-aside{
-	float: left;	
-	background-color: grey;
-	width: 15%;
-	height: 70%;
-}
-
-section {
-	float: left;	
+#divlogomontana{
 	background-color: red;
-	width: 75%;
-	height: 70%;
-}
-
-article{
 	float: left;
-	background-color: yellow;
-	width: 70%;
-	height: 100%;
-}
-
-.containerpie{
+	height: 150px;
 	width: 15%;
-	background-color: blue;
-	float: left;
-	margin-left: 15%;
-	height: 150px;
-}
-
-#imgpie{
-	width: 100%;
-	height: 150px;
 }
 
 #divimgslalom{
-	width: 8%;
-	height: 100%;
 	background-color: blue;
+	height: 100%;
+	width: 8%;
+	float:left;
 }
 
-.imgslalom{
-	width: 100%;
-}
-
-body{
-	margin: 2%;
-}
-
-.principalcontenido{
-background-color: green;
-width: 100%;
-float: left;
+#divrestologo{
+	background-color: green;
+	float: left;
+	height: 150px;
+	width: 75%;
 }
 
 footer{}
 
+header{
+	background-color: black;
+	height: 150px;
+	width: 100%;
+}
+
+#imglogomontana{
+	height: 150px;
+	width: 100%;
+}
+
+#imgpie{
+	height: 150px;
+	width: 100%;
+}
+
+#imgrestologo{
+	height:150px;
+	width:70%;
+}
+
+.imgslalom{
+	float: left;
+	height: 50px;
+	width: 100%;
+}
+
+.divconteidodinamico{
+	background-color: green;
+	float: right;
+	width: 92%;
+	height: 100%;
+}
+
+section {
+	background-color: red;
+	float: left;	
+	height: 70%;
+	width: 75%;
+}
 
 
